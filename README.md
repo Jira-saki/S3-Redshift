@@ -1,10 +1,10 @@
-# Copy data from Datalake to Data Warehouse
-
-ELT - Extract Load Transform pipeline in a single datalake location on AWS platform.
+## Copy data from Datalake to Data Warehouse, Create table and query data in Data Warehouse.
 
 
-# Diagram
 
+
+## Diagram
+<img src="https://github.com/Jira-saki/S3-Redshift/blob/main/s3-redshift.drawio.png">
 
 ## Introduction & Goals
 
@@ -13,14 +13,14 @@ ELT - Extract Load Transform pipeline in a single datalake location on AWS platf
 
 
 ## The Data Set
-tickit .txt data set
+[tickit](https://github.com/Jira-saki/S3-Redshift/tree/main/data/tickit) .txt data set
 
 
 ## Used Tools
 - **Amazon S3, AWS Redshift**
   
   
-  # Pipelines
+## Pipelines
 - Load file into S3 bucket.
 	  - Create *output folder* as target inside the same bucket.
 - Create Redshift cluster and Database in Redshift.
