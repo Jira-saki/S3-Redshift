@@ -22,10 +22,10 @@
   
 ## Pipelines
 - Load file into S3 bucket.
-	  - Create *output folder* as target inside the same bucket.
+    - Create *output folder* as target inside the same bucket.
 - Create Redshift cluster and Database in Redshift.
-	  - Create table for each entities  
-	  - load data from bucket onto tables
+    - Create table for each entities  
+    - load data from bucket onto tables
 - Query redshift cluster to find 
     - total sales in specific calender date
     - top 10 buyers by quantity
